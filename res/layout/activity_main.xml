@@ -20,6 +20,7 @@
                 android:src="@drawable/dancer"/>
 
             <LinearLayout
+                android:id="@+id/linearlayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -31,7 +32,116 @@
                     android:textColor="#FFFFFF"
                     android:fontFamily="casual"
                     android:textSize="18sp"
-                    android:/>
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="24dp"
+                   />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1.  What is the traditional performance dress called?"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="4dp"
+                android:textSize="15sp"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ballerino"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:id="@+id/ballet_dress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tutu"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Demi Plie"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="2.  Ballet commands dervice from what language? "
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/language"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="French"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Greek"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Spanish"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="3.  What is a male ballet dancer called? "
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="4dp"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ballerina"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Balletier"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+                <CheckBox
+                    android:id="@+id/male_dancer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ballerino"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="true"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit Answers"
+                    android:layout_gravity="center_horizontal"/>
 
             </LinearLayout>
 
